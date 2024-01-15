@@ -1,4 +1,4 @@
-## EnhancedTemplateMatcher
-# Template matching with ability to detect rotated and/or rescaled occurrences 
+# EnhancedTemplateMatcher
+## Template matching with ability to detect rotated and/or rescaled occurrences 
 
 This Python script performs template matching using OpenCV to find occurrences of a template image within a larger main image. The code allows the user to upload the template and main images directly to the script. It utilizes OpenCV functions to search for the best match of the template in the main image. The best match is determined based on the match score, and the script draws rectangles around the matched regions in the main image. The resulting image with the drawn rectangles is displayed. The script provides flexibility in adjusting the criteria of scale and angle ranges for template matching, allowing for customization based on specific use cases. It is a useful tool for basic image recognition and object detection tasks.
